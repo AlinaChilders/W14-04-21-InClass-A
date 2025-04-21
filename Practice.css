@@ -9,6 +9,7 @@
 
 /* 🔹 ELEMENT 1 (Bubble Tea) — Select by ID */
 /*
+
   ✅ Recreate:
   - A light background color
   - A background image (BubbleTea.png)
@@ -17,7 +18,21 @@
   - Margin & padding for spacing
   - A border with color and radius
 */
- {
+#box-one {
+  background-image: url("Chihuahua.jpeg");
+  background-color: rgb(225, 378, 208);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  border-style: solid;
+  border-width: thick;
+  font-size: 25px;
+  color: rgb(172, 208, 72);
+  font-family: fantasy;
+  text-align: left;
+  border-color: darkmagenta;
+  border-radius: 8px;
 }
 
 /* 🔹 ELEMENT 2 (Chihuahua Muffins) — Select by class */
@@ -29,7 +44,22 @@
   - Add margin to separate from other blocks
   - Style the font and add a border
 */
- {
+.text {
+  background-image: url("Chihuahua.jpeg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-attachment: scroll;
+
+  border-style: dotted;
+  font-size: 15px;
+  color: rgb(137, 12, 12);
+  font-family: cursive;
+  text-align: center;
+
+  /* ✅ Spacing */
+  padding: 20px;
+  margin: 50px; /* Auto centers the box if it has width */
+  width: 80%;
 }
 
 /* 🔹 ELEMENT 3 (Slime vs Playdough) — Select by element type (h2) */
@@ -41,7 +71,8 @@
   - Add dashed border and custom font
   - Center the text and adjust spacing
 */
- {
+h2 {
+  background-image: url("Chihuahua.jpeg");
 }
 
 /* 🔹 ELEMENT 4 (Section Placeholder) — Select using ID or class */
@@ -52,7 +83,10 @@
   - Right-align the text
   - Add margin and padding to give it shape
 */
- {
+#section-one {
+  background-color: crimson;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 /* 🔹 BODY BACKGROUND — Select the <body> tag */
@@ -64,4 +98,5 @@
   - Experiment with values to cover the full background
 */
 body {
+  background-image: url("Chihuahua.jpeg");
 }

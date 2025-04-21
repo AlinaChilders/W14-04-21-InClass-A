@@ -17,11 +17,7 @@
   border-color: teal;
   border-radius: 8px;
 
-  color: rgb(
-    255,
-    255,
-    224
-  ); /*manipulate to make the text appear*?
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-family: Arial, sans-serif;
   text-align: left;
@@ -49,7 +45,7 @@
   text-align: left;
 
   /* ✅ Spacing */
-  padding: 3px 25px; /* manipulate to make the Chihuahua appear*/
+  padding: 100px 300px; /* manipulate to make the Chihuahua appear*/
   margin: 20px;
 }
 
@@ -59,7 +55,7 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: right center;
-  background-size: 2000px; /*manipulate to find out slime or dough?*/
+  background-size: 100px; /*manipulate to find out slime or dough?*/
 
   border-style: dashed;
   border-width: 3px;
@@ -100,6 +96,6 @@ body {
   background-repeat: no-repeat;
   /*did you find the hidden element?
   manipulate the following lines to make it cover the whole page*/
-  background-size: 15px;
-  background-position: left;
+  background-size: cover;
+  background-position: center;
 }
